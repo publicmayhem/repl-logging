@@ -1,0 +1,11 @@
+{:paths ["src"]
+
+ :deps {org.clojure/tools.logging {:mvn/version "1.1.0"}}
+
+ :mvn/repos
+       {"s3-private-snapshot-repo" {:url "s3://egiraffe-s3repo/snapshots"}
+        "s3-private-release-repo"  {:url "s3://egiraffe-s3repo/releases"}}
+
+ :aliases
+ 	{}}
+
